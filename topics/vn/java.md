@@ -1,6 +1,6 @@
 ## Java
 
-[Java là gì và có những đặc điểm gì?](#java-la-gi-va-co-nhung-dac-diem-gi)
+[Java là gì và có những đặc điểm gì?](#java-là-gì-và-có-những-đặc-điểm-gì)
 
 [Khái niệm về final, finally, finalize trong Java?](#khai-niem-ve-final-finally-finalize)
 
@@ -46,4 +46,12 @@
 
 [Các Collection Interface](#cac-collection-interface)
 
+
 ### Java là gì và có những đặc điểm gì?
+
+Java là một ngôn ngữ lập trình hướng đối tượng. Được thiết kế để chạy trên nhiều nền tảng khác nhâu mà không gặp phải vấn đề tương thích, nhờ vào cơ chế Write Once, Run Anywhere. Các đặc điểm gồm:
+- Độc lập nền tảng
+- Hướng đối tượng
+- Đa luồng
+- Thu gom rác tự động
+- Thư viện phong phú
