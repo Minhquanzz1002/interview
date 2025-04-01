@@ -62,14 +62,16 @@ Java là một ngôn ngữ lập trình hướng đối tượng. Được thi�
     - Biến: Để khai báo một hằng số
     - Lớp: Để khai báo một lớp không thể kế thừa.
     - Phương thức: Để khai báo một phương thức không thể bị ghi đè
-- `finally`: Là một khối mã trong câu lệnh `try-catch` luôn được thực thi, bất kể liệu có exception xảy ra hay không. Nó thường được dùng để giải phóng tài nguyên (như đóng file, kết nối mạng).
+- `finally`: Là một khối mã trong câu lệnh `try-catch` luôn được thực thi, bất kể liệu có exception xảy ra hay không. 
+Nó thường được dùng để giải phóng tài nguyên (như đóng file, kết nối mạng). **Khi trong finally có return thì giá trị return trong finally là giá trị cuối cùng.**
 - `finalize`: Là một phương thức trong lớp `Object`, được gọi trước khi đối tượng bị garbage collection. Nó có thể được ghi đè để làm sạch tài nguyên, nhưng việc sử dụng `finalize()` không được khuyến khích trong Java hiện đại.
 
 ### Điều gì xảy ra khi một exception không được xử lý trong Java?
 Khi một exception không được xử lý trong Java, hệ thống sẽ ném ra (throw) exception đó lên các lớp cha của phương thức đang thực thi. Nếu exception không được xử lý trong bất kỳ lớp cha nào, chương trình sẽ dừng lại và in ra stack trace để thông báo về vị trí xảy ra lỗi trong mã nguồn.
 
-### Điều gì xảy ra khi một exception không được xử lý trong Java?
-Khi một exception không được xử lý trong Java, hệ thống sẽ ném ra (throw) exception đó lên các lớp cha của phương thức đang thực thi. Nếu exception không được xử lý trong bất kỳ lớp cha nào, chương trình sẽ dừng lại và in ra stack trace để thông báo về vị trí xảy ra lỗi trong mã nguồn.
+### Phân biệt giữa extends và implements trong Java?
+extends: Dùng khi một lớp muốn kế thừa thuộc tính và phương thức từ một lớp khác.
+implements: Dùng khi một lớp muốn cài đặt các phương thức của một giao diện và có thể cài đặt nhiều giao diện.
 
 ### Quá trình biên dịch và thực thi một chương trình Java?
 1. Viết mã nguồn
@@ -153,7 +155,7 @@ int j = ++i;    // i = 1, j = 1
 - ++i trả về giá trị sau khi tăng
 
 ### String Pool
-```java
+```
 String s1 = "Hello";
 String s2 = "Hello";
 String s3 = new String("Hello");
@@ -163,7 +165,7 @@ System.out.println(s1.equals(s3)); // true
 ```
 
 ### Integer Cache
-```java
+```
 Integer num1 = 127;
 Integer num2 = 127;
 System.out.println(num1 == num2);  // true
@@ -247,7 +249,7 @@ Do java sửa dụng JVM, máy ảo java cung cấp cách thực thi mã Java đ
 
 ### String trong java là bất biến đúng không? Có mấy cách tạo String
 Đúng. Có 2 cách tạo String là dùng từ khóa new và dấu double quotes (")
-```java
+```
 String str = "Hello";      
 str.concat(" World");
 System.out.println(str);    // Hello
