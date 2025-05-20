@@ -16,3 +16,4 @@
 ## Authors
 
 - **MinhQuan**
+- **ThuNgan**
