@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-### Topics
+### 🎯 Topics
 
 1. [Java](/topics/vn/java.md)
 2. [Javascript](/topics/vn/javascript.md)

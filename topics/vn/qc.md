@@ -2,14 +2,15 @@
 
 ---
 
-### 📌 QC là gì?
+### 🎯 QC là gì?
 
 ---
 
 QC là 
 
-### 📌 Kiểm thử hộp trắng là gì?
+### 🎯 Kiểm thử hộp trắng là gì?
 
 ---
 
-Kiểm thử
+Kiểm thử `cach in dam`
+**bold**
