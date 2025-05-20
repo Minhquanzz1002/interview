@@ -10,7 +10,8 @@
 
 1. [Java](/topics/vn/java.md)
 2. [Javascript](/topics/vn/javascript.md)
-3. [Database](/topics/en/db.md)
+3. [Database](/topics/vn/db.md)
+4. [QC](/topics/vn/qc.md)
 
 ## Authors
 
